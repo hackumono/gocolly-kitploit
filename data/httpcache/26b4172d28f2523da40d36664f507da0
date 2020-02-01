@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 01 Feb 2020 13:37:40 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: EE0E:2718E:8933114:A461322:5E357F24
+X-Oauth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, delete:packages, delete_repo, gist, notifications, read:packages, repo, user, workflow, write:discussion, write:packages
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4878
+X-Ratelimit-Reset: 1580566671
+X-Xss-Protection: 1; mode=block
+
+183
+{"resources":{"core":{"limit":5000,"remaining":4878,"reset":1580566671},"search":{"limit":30,"remaining":30,"reset":1580564320},"graphql":{"limit":5000,"remaining":5000,"reset":1580567860},"integration_manifest":{"limit":5000,"remaining":5000,"reset":1580567860},"source_import":{"limit":100,"remaining":100,"reset":1580564320}},"rate":{"limit":5000,"remaining":4878,"reset":1580566671}}
+0
+
